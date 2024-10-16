@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geométricas</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="card">
+        <h1 class="titulo">Cálculo de Formas Geométricas</h1>
+        <br>
+        <select id="sides" class="select">
+            <option value="">Selecione...</option>
+            <option value="3">3 Lados (Triângulo)</option>
+            <option value="4">4 Lados (Quadrado)</option>
+            <option value="5">5 Lados (Pentágono)</option>
+            <option value="6">6 Lados (Hexágono)</option>
+            <option value="7">7 Lados (Heptágono)</option>
+            <option value="8">8 Lados (Octógono)</option>
+            <option value="9">9 Lados (Eneágono)</option>
+            <option value="10">10 Lados (Decágono)</option>
+        </select>
+        <br><br>
+        <button id="calculate" class="calculate-button">Calcular</button>
+
+        <div class="result" id="result">
+            <!-- Os resultados serão exibidos aqui -->
+            <img id="shapeImage" src="" alt="Imagem da forma" style="display: none;" class="imgs">
+        </div>
+    </div>
+</body>
+</html>
